@@ -18,6 +18,9 @@ import { ListComponent } from './observable/list/list.component';
 import { FromeventComponent } from './observable/fromevent/fromevent.component';
 import { IntervalComponent } from './observable/interval/interval.component';
 import { OfFromComponent } from './observable/of-from/of-from.component';
+import { ToArrayComponent } from './observable/to-array/to-array.component';
+import { CustomObservableComponent } from './observable/custom-observable/custom-observable.component';
+import { MapComponent } from './observable/map/map.component';
 // import { LazyuserComponent } from './lazyuser/lazyuser.component';
 
 @NgModule({
@@ -33,6 +36,9 @@ import { OfFromComponent } from './observable/of-from/of-from.component';
     FromeventComponent,
     IntervalComponent,
     OfFromComponent,
+    ToArrayComponent,
+    CustomObservableComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,
