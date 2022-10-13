@@ -21,6 +21,12 @@ import { OfFromComponent } from './observable/of-from/of-from.component';
 import { ToArrayComponent } from './observable/to-array/to-array.component';
 import { CustomObservableComponent } from './observable/custom-observable/custom-observable.component';
 import { MapComponent } from './observable/map/map.component';
+import { FilterComponent } from './observable/filter/filter.component';
+import { PluckComponent } from './observable/pluck/pluck.component';
+import { TapComponent } from './observable/tap/tap.component';
+import { TakeComponent } from './observable/take/take.component';
+import { DebouncetimeDistinctuntilComponent } from './observable/debouncetime-distinctuntil/debouncetime-distinctuntil.component';
+import { SubjectComponent } from './observable/subject/subject.component';
 // import { LazyuserComponent } from './lazyuser/lazyuser.component';
 
 @NgModule({
@@ -39,6 +45,12 @@ import { MapComponent } from './observable/map/map.component';
     ToArrayComponent,
     CustomObservableComponent,
     MapComponent,
+    FilterComponent,
+    PluckComponent,
+    TapComponent,
+    TakeComponent,
+    DebouncetimeDistinctuntilComponent,
+    SubjectComponent,
   ],
   imports: [
     BrowserModule,

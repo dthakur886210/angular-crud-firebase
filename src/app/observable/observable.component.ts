@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { filter, from, toArray } from 'rxjs';
 
 @Component({
   selector: 'app-observable',
@@ -8,7 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class ObservableComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit(): void {
   }
 
