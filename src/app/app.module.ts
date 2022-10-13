@@ -27,6 +27,9 @@ import { TapComponent } from './observable/tap/tap.component';
 import { TakeComponent } from './observable/take/take.component';
 import { DebouncetimeDistinctuntilComponent } from './observable/debouncetime-distinctuntil/debouncetime-distinctuntil.component';
 import { SubjectComponent } from './observable/subject/subject.component';
+import { Component1Component } from './subjectdemo/component1/component1.component';
+import { Component2Component } from './subjectdemo/component2/component2.component';
+import { Component3Component } from './subjectdemo/component3/component3.component';
 // import { LazyuserComponent } from './lazyuser/lazyuser.component';
 
 @NgModule({
@@ -51,6 +54,9 @@ import { SubjectComponent } from './observable/subject/subject.component';
     TakeComponent,
     DebouncetimeDistinctuntilComponent,
     SubjectComponent,
+    Component1Component,
+    Component2Component,
+    Component3Component,
   ],
   imports: [
     BrowserModule,
