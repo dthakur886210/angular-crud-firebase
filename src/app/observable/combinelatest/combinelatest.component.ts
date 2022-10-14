@@ -12,7 +12,7 @@ export class CombinelatestComponent implements OnInit,AfterViewInit {
  @ViewChild('names') names : ElementRef | any;
  @ViewChild('color')  color :ElementRef | any;
   constructor() { }
-  //whenever we work with dom elements
+  //whenever we work with dom elements ngAfterViewInit we have to use
 
   ngOnInit(): void {
 
