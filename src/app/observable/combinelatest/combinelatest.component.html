@@ -7,12 +7,26 @@
         <div class="col-md-3 pr-4">
             <strong>Names</strong>
             <hr>
-            <select class="form-control">
+            <select class="form-control" #names>
                 <option *ngFor="let item of nameSource" value="{{item}}">{{item}}</option>
             </select>
             <br><br>
+            <strong>Colors</strong>
+            <hr>
+            <select class="form-control" #color>
+                <option *ngFor="let item of colorSource" value="{{item}}">{{item}}</option>
+            </select>
         </div>
-        <div class="col-md-9 pr-4">
+        <div class="col-md-9 pr-4 ml-auto">
+            <strong>CombineLatest</strong>
+            <hr>
+            <div class="wrapper" id="elContainer">
+            </div>
+          
+            <strong>withLatestForm</strong>
+            <hr>
+            <div class="wrapper" id="elContainer2">
+            </div>
         </div>
     </div>
 </div>
