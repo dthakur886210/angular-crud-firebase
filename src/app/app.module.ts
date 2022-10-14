@@ -30,6 +30,12 @@ import { SubjectComponent } from './observable/subject/subject.component';
 import { Component1Component } from './subjectdemo/component1/component1.component';
 import { Component2Component } from './subjectdemo/component2/component2.component';
 import { Component3Component } from './subjectdemo/component3/component3.component';
+import { ConcatComponent } from './observable/concat/concat.component';
+import { MergeComponent } from './observable/merge/merge.component';
+import { MergeMapComponent } from './observable/merge-map/merge-map.component';
+import { ConcatMapComponent } from './observable/concat-map/concat-map.component';
+import { SwitchMapComponent } from './observable/switch-map/switch-map.component';
+import { CombinelatestComponent } from './observable/combinelatest/combinelatest.component';
 // import { LazyuserComponent } from './lazyuser/lazyuser.component';
 
 @NgModule({
@@ -57,6 +63,12 @@ import { Component3Component } from './subjectdemo/component3/component3.compone
     Component1Component,
     Component2Component,
     Component3Component,
+    ConcatComponent,
+    MergeComponent,
+    MergeMapComponent,
+    ConcatMapComponent,
+    SwitchMapComponent,
+    CombinelatestComponent,
   ],
   imports: [
     BrowserModule,
